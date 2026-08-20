@@ -1,6 +1,6 @@
 # Laravel Attribute Routing
 
-[![Tests](https://github.com/ahmednour1430464/laravel-attribute-routing/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmednour1430464/laravel-attribute-routing/actions/workflows/tests.yml)
+[![Tests](https://github.com/ahmed-nour-dev/laravel-attribute-routing/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmed-nour-dev/laravel-attribute-routing/actions/workflows/tests.yml)
 [![Latest Version](https://img.shields.io/packagist/v/ahmednour/laravel-attribute-routing.svg)](https://packagist.org/packages/ahmednour/laravel-attribute-routing)
 [![License](https://img.shields.io/packagist/l/ahmednour/laravel-attribute-routing.svg)](LICENSE)
 

@@ -5,6 +5,17 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-08-20
+
+Metadata only. No code changes.
+
+### Changed
+
+- Repository moved to `github.com/ahmed-nour-dev/laravel-attribute-routing`.
+  Package metadata, README badges, and links updated to the new URL; the old
+  URLs continue to redirect.
+- The author entry now points at a profile page instead of an email address.
+
 ## [1.0.0] - 2026-08-20
 
 First stable release. No code changes since 0.1.1 — this release promotes the

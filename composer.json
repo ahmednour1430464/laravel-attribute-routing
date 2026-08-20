@@ -2,12 +2,12 @@
     "name": "ahmednour/laravel-attribute-routing",
     "description": "Define Laravel routes with PHP 8 attributes on your controllers — colocated, composable, and route-cache friendly.",
     "keywords": ["laravel", "routing", "attributes", "php8", "route-discovery", "controllers"],
-    "homepage": "https://github.com/ahmednour1430464/laravel-attribute-routing",
+    "homepage": "https://github.com/ahmed-nour-dev/laravel-attribute-routing",
     "license": "MIT",
     "authors": [
         {
             "name": "Ahmed Nour",
-            "email": "ahmednour1430464@gmail.com",
+            "homepage": "https://github.com/ahmed-nour-dev",
             "role": "Developer"
         }
     ],
