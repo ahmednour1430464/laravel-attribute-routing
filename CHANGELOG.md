@@ -5,6 +5,18 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-08-20
+
+First stable release. No code changes since 0.1.1 — this release promotes the
+existing API to a stability commitment now that it has been running unchanged in
+production for months.
+
+### Changed
+
+- The public API is now covered by Semantic Versioning. The attribute classes,
+  their constructor arguments, the `Permitted` contract, and the config keys will
+  not change incompatibly before 2.0.0.
+
 ## [0.1.1] - 2026-08-20
 
 ### Changed
