@@ -5,6 +5,8 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-08-20
+
 ### Changed
 
 - `attribute-routing:list` now renders in the same style as `php artisan route:list`:
