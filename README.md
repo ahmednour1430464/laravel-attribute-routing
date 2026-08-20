@@ -226,8 +226,28 @@ php artisan attribute-routing:list
 php artisan attribute-routing:list --path=leads
 ```
 
-It prints each discovered route with the `Controller@method` it came from, plus how many classes
-were scanned — which is usually enough to spot a `paths` config that doesn't cover your controllers.
+```
+  GET|HEAD      /api/leads ......................... leads.index › LeadController@index
+  GET|HEAD      /api/leads/{lead} ..................... leads.show › LeadController@show
+  POST          /api/leads ......................... leads.store › LeadController@store
+  DELETE        /api/leads/{lead} ............... leads.destroy › LeadController@destroy
+
+                                          Showing [4] routes from [65] scanned classes
+```
+
+Each route shows the `Controller@method` it came from, and the footer reports how many classes were
+scanned — usually enough to spot a `paths` config that doesn't cover your controllers.
+
+Add `-v` for the middleware stack, excluded middleware, and parameter constraints, and to see
+controller names in full rather than shortened against your application namespace:
+
+```
+  GET|HEAD      /api/leads/{lead} leads.show › App\Http\Controllers\LeadController@show
+                 ⇂ api
+                 ⇂ auth:sanctum
+                 ⇂ permission:view_leads
+                 ⇂ where lead = [0-9]+
+```
 
 ## Gotchas
 

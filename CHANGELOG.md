@@ -5,6 +5,14 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+- `attribute-routing:list` now renders in the same style as `php artisan route:list`:
+  borderless layout with dot leaders, coloured HTTP verbs, `{parameters}` highlighted,
+  all-verb routes collapsed to `ANY`, and controller names shortened against the
+  application namespace. Middleware, excluded middleware, and `where` constraints moved
+  behind `-v`, and long lines are truncated to the terminal width instead of wrapping.
+
 ## [0.1.0] - 2026-08-20
 
 Initial release, extracted from a production Laravel application where it has
